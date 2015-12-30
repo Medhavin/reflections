@@ -1,0 +1,5 @@
+1. What happens when you initialize a repository? Why do you need to do it?
+
+When a repository is initialised, Git begins watching the directory, and the directory and files within the directory.
+
+This is required so that Git becomes aware of the directory and files.
