@@ -3,3 +3,29 @@
 When a repository is initialised, Git begins watching the directory, and the directory and files within the directory.
 
 This is required so that Git becomes aware of the directory and files.
+
+
+2. How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area is where we prepare logical commits by adding changes selectively from the working directory. It helps us prepare logical commits.
+
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+
+By adding only the relevant changes and committing only when all relevant changes have been added.
+
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches would be helpful when working on experimental features. Creating a branch will allow me to work on the master as well as the experimental feature side-by-side, without the fear of master going bad.
+
+
+5. How do the diagrams help you visualize the branch structure?
+
+Diagrams help me visualise the branch structure by bringing out the parent-child relationship between the commits.
+
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
